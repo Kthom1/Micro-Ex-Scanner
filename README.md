@@ -1,5 +1,7 @@
 #Instructions
 
+This scanner counts and prints the values of valid TOKENS in Micro/EX and prints ILLEGAL CHARACTER when it encounters an illegal token.
+
 1. lex micro.l
 
 2. cc micro.c lex.yy.c -ll -o micro
